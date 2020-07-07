@@ -1,0 +1,104 @@
+header {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 70px;
+}
+nav ul li{
+    list-style:none;
+}
+ul {
+    display: flex;
+}
+li {
+    flex: 1;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 45px;
+}
+nav{
+    background-color: rgba(136,136,128,0.81);
+    color: rgb(112,112,112);
+    padding: 5px 0px 5px 0px;
+    margin: 60px 0;
+}
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+section div {
+    width: 48%;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: absolute;
+    margin: 0 auto;
+    width: 80%;
+    height: 1000px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.img-container {
+    display: inline-flex;
+    flex-flow: column;
+}
+
+img {
+    width: 100%;
+}
+
+#coffee {
+   height: 50%;
+   margin-bottom: 70px;
+}
+
+#chicken {
+    height: 50%;
+}
+
+#orange {
+    height: 40%;
+    margin-bottom: 70px;
+}
+
+#insta {
+    height: 60%;
+}
+
+#woman{
+    height: auto;
+    width: 1100px;
+    left: 400px;
+    position: relative;
+}
+
+p {
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+}
+
+#chicken1{
+    height: auto;
+    width: 1100px;
+    left: 400px;
+    position: relative;
+}
+#hobby{
+    height: auto;
+    width: 1100px;
+    left: 400px;
+    position: relative;
+}
+
+
